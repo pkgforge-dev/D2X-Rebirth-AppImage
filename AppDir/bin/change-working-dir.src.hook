@@ -1,4 +1,4 @@
-#!/bin/false
+#!/bin/sh
 dir=$HOME/.d2x-rebirth
 if [ ! -f "$dir"/d2xr-sc55-music.dxa ]; then
   mkdir -p "$dir"
