@@ -16,12 +16,11 @@ pacman -Syu --noconfirm \
     python         \
     scons          \
     sdl2           \
-    sdl2_image     \
     sdl2_mixer
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano sdl2_image-mini
 
 # Comment this out if you need an AUR package
 #make-aur-package
