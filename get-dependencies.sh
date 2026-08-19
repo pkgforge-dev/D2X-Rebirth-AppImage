@@ -22,7 +22,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano sdl2_image-mini
 
-echo "Making nightly build of D2X-Rebirth..."
+echo "Building D2X-Rebirth..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/dxx-rebirth/dxx-rebirth"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
