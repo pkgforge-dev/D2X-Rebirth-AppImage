@@ -49,5 +49,3 @@ scons "${_common_opts[@]}" 'd1x=0' 'd2x=1'
 
 mv -v build/d2x-rebirth/d2x-rebirth "d2x-rebirth addons/d2xr-sc55-music.dxa" ../AppDir/bin
 mv -v d2x-rebirth/d2x-rebirth.desktop ../AppDir
-cp contrib/packaging/linux/descent2.svg ../AppDir/.DirIcon
-mv -v contrib/packaging/linux/descent2.svg ../AppDir
