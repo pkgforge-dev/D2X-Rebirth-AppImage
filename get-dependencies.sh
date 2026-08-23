@@ -47,4 +47,3 @@ declare -a _common_opts=(
 scons "${_common_opts[@]}" 'd1x=0' 'd2x=1'
 
 mv -v build/d2x-rebirth/d2x-rebirth "d2x-rebirth addons/d2xr-sc55-music.dxa" ../AppDir/bin
-mv -v d2x-rebirth/d2x-rebirth.desktop ../AppDir
