@@ -14,7 +14,6 @@ pacman -Syu --noconfirm \
     pipewire-jack  \
     python         \
     scons          \
-    sdl2           \
     sdl2_mixer
 
 echo "Installing debloated packages..."
